@@ -1,0 +1,31 @@
+#container{
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.bar{
+    width: 10px;
+    background-color: black;
+    margin: 1px;
+}
+h1{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+button {
+    background-color: #0e4f3b; /* Green */
+    border: none;
+    color: white;
+    padding: 15px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 12px;
+    border: 2px solid black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
